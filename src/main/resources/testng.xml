@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Framework">
+
+	<listeners>
+		<listener class-name="testing.listeners.TestNgListener" />
+	</listeners>
+
+	<test name="Testing Project">
+		<classes>
+			<class name="testing.Automation.App"></class>
+		</classes>
+	</test>
+</suite>

@@ -31,8 +31,6 @@ public class Steps {
   }
   
   
-  
-  
   @Given("^you are in Given annotation1$")
   public void given1() throws Throwable {
 	  System.out.println("Method 1");
